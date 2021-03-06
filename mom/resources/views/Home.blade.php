@@ -7,7 +7,15 @@ Natale
         </header>
     <main class="wrapper">
         <div class="menu_left">
-          <a href="{{url('Product')}}"></a>
+            <div class="for_photo">
+                <img src="{{asset('/image/siamskij_kot_kot_morda_125499_320x480.jpg')}}" alt="avatar"/>
+
+            </div>
+            <div class="for_link">
+                <a href="{{url('Product')}}">Заказы</a>
+                <a href="{{url('Art')}}">Мои картины</a>
+                <a href="{{url('Art')}}">Настройки</a>
+            </div>
         </div>
         <div class="content">
             @yield('content')

@@ -5,11 +5,13 @@
 *, :after, :before {
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 0;
+}
 header {
     padding: 1rem;
     background-color: darkred;
 }
-
 footer {
     padding: 0.5rem;
     background-color: #8b0000;
@@ -25,7 +27,6 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
 }
-
 .menu_left {
     background-color: #a9a9a9;
     left: 0;
@@ -35,7 +36,8 @@ footer {
     width: 22%;
 }
 
-::-webkit-scrollbar {
-    width: 0;
+.for_photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
 }
-
