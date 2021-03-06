@@ -1,4 +1,4 @@
 @extends('Home')
 @section('content')
-    <div>testContent</div>
+    <div></div>
 @endsection

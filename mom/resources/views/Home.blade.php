@@ -7,7 +7,7 @@ Natale
         </header>
     <main class="wrapper">
         <div class="menu_left">
-            menu
+          <a href="{{url('Product')}}"></a>
         </div>
         <div class="content">
             @yield('content')
