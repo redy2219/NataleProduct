@@ -9,7 +9,6 @@ Natale
         <div class="menu_left">
             <div class="for_photo">
                 <img src="{{asset('/image/siamskij_kot_kot_morda_125499_320x480.jpg')}}" alt="avatar"/>
-
             </div>
             <div class="for_link">
                 <a href="{{url('Product')}}">Заказы</a>
