@@ -1,8 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    background-color: darkred;
+}
+
+footer {
+    padding: 0.5rem;
+    background-color: #8b0000;
+    color: #fff;
+    position: relative;
+}
+.content {
+    width: 78%;
+    height: 100vh;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 .menu_left {
-    position: absolute;
-    background-color:darkgrey;
-    width: 300px;
+    background-color: #a9a9a9;
     left: 0;
-    top:0;
     height: 100%;
+    position: absolute;
+    z-index: 1000;
+    width: 22%;
 }

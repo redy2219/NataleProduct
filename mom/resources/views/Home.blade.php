@@ -3,16 +3,18 @@
 @include('Head')
     <body>
         <header>
-
+Natale
         </header>
-    <main>
+    <main class="wrapper">
         <div class="menu_left">
             menu
         </div>
-        @yield('content')
+        <div class="content">
+            @yield('content')
+        </div>
     </main>
     <footer>
-        tesFooter
+      @Natale
     </footer>
     </body>
 </html>
