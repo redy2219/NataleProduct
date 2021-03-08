@@ -14,7 +14,7 @@ header {
 }
 footer {
     padding: 0.5rem;
-    background-color: #8b0000;
+    background-color: darkred;
     color: #fff;
     position: relative;
 }
@@ -57,11 +57,17 @@ footer {
     flex-direction: column;
 }
 .for_link > a {
-    margin-top: 10px;
-    color: white;
+    margin-top: 27px;
+    color: #fff;
     text-decoration: none;
     font-family: Ubuntu, sans-serif;
-    font-size:20px;
+    font-size: 20px;
     text-align: center;
+    padding: 7px;
+    transition: 0.5s;
 }
-
+.for_link > a:hover {
+    color: #fff;
+    background: #bbb;
+    transition: 0.5s;
+}
