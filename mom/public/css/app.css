@@ -23,9 +23,14 @@ footer {
     height: 100vh;
 }
 .wrapper {
-    display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+.flex_d {
+    display: flex;
+}
+.flex_jC {
+    justify-content: center;
 }
 .menu_left {
     background-color: #a9a9a9;
@@ -34,29 +39,24 @@ footer {
     position: absolute;
     z-index: 1000;
     width: 22%;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .for_photo {
-    width: 150px;
-    border-radius: 114px;
-    max-width: 150px;
-    padding: 5px;
+    width: 80%;
+    margin: 20px;
 }
 .for_photo > img {
     width: 100%;
     height: auto;
-    border-radius: 121px;
+    border: 4px solid #fff;
 }
 .for_link {
-    display: flex;
-    justify-content: center;
     padding: 10px;
     flex-direction: column;
 }
-.for_link >a {
+.for_link > a {
     margin-top: 10px;
     color: white;
     text-decoration: none;
@@ -64,4 +64,4 @@ footer {
     font-size:20px;
     text-align: center;
 }
-.flex_
+
