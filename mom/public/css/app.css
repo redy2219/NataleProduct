@@ -18,11 +18,8 @@ footer {
     color: #fff;
     position: relative;
 }
-.content {
-    width: 78%;
-    height: 100vh;
-}
 .wrapper {
+    height: 100vh;
     flex-direction: row;
     justify-content: flex-end;
 }
@@ -42,7 +39,9 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-
+.content_admin {
+    width: 78%;
+}
 .for_photo {
     width: 80%;
     margin: 20px;

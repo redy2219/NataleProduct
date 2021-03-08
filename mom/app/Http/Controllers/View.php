@@ -4,7 +4,7 @@
 namespace App\Http\Controllers;
 
 
-class View
+class View extends Controller
 {
 
 }
