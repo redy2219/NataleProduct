@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Product extends Model
 {
     use HasFactory;
+
+    protected array $table = [
+        (string)'id',
+        (string)'name',
+        (string)'description',
+        (int)'price',
+
+    ];
 }
