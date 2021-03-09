@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+//use app\Http\Controllers\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,12 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('Home');
-//});
+// magazine home-page
 Route::get('/', function () {
     return view('templates.HomeDashboard');
 });
-Route::get('/admin', function () {
-    return authToken();
-});
+
+// admin-panel
+//Route::get('/admin', function () {
+//    $id = '';
+//    $pass = '';
+//    return Auth::authToken($id, $pass);
+//});
