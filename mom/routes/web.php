@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,5 +19,5 @@ Route::get('/', function () {
     return view('templates.HomeDashboard');
 });
 Route::get('/admin', function () {
-    return view('templates.admin');
+    return authToken();
 });

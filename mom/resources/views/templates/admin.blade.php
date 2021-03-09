@@ -13,4 +13,4 @@
 <div class="content_admin">
 
 </div>
-@endsection
+@stop
