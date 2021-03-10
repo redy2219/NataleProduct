@@ -1,4 +1,4 @@
 @extends('Home')
 @section('content')
-product
+    Product
 @stop

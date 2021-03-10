@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-//use app\Http\Controllers\Auth;
+use app\Http\Controllers\View;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('templates.HomeDashboard');
 });
 
+Route::get('/product', function () {
+    return view('templates.Product');
+});
 // admin-panel
 //Route::get('/admin', function () {
 //    $id = '';
